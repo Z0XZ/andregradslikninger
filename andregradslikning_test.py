@@ -21,7 +21,7 @@ def generer_tilfeldige_koeffisienter():
 def test_tilfeldige_nullpunkt(a, b, c):
     """ Tester nullpunkt-funksjonen med tilfeldig genererte koeffisienter. """
     discriminant = b**2 - 4*a*c
-    expected = "Likningen har ingen løsninger!"
+    expected = "Likningen har ingen løsning!"
     if discriminant > 0:
         expected = (round((-b + math.sqrt(discriminant)) / (2 * a),2), 
                     round((-b - math.sqrt(discriminant)) / (2 * a),2))
