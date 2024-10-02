@@ -1,4 +1,4 @@
-# Nullpunkter til andregradsfunksjoner
+# Løsninger til andregradslikninger
 ## Oppgave:
 Du skal nå lage en funksjon kalt ```losninger``` som skal ha tre parametre: a, b og c.
 Funksjonen skal fungere slik at man putter inn argumenter for a, b og c som skal svare til verdien i en andregradslikning på forman: ax^2+bx+c=0.
